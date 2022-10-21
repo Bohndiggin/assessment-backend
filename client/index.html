@@ -5,7 +5,28 @@
   </head>
   <body class="container">
     <button id="complimentButton">Get a compliment</button>
+    <br>
+    <button id="getFortune">Get a Fortune</button>
+    <br>
+    <label for="fInputName">Fortune Update:</label>
+    <input type="text" id="fInput" name="fInputName">
+    <button id="addFortune">Add a Fortune</button>
+    <br>
+    <label for="fIdInputName">Fortune Id:</label>
+    <select type="text" id="idBox" name="fIdInputName">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+    <button id="updFortune">Update Fortune</button>
+    <button id="delFortune">Delete Fortune</button>
+    <div id="fortunes">
 
+    </div>
+    
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
     
